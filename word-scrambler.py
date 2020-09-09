@@ -3,5 +3,5 @@
 
 from itertools import permutations
 perms = [''.join(p) for p in permutations(input())]
-for i in perms:
+for i in sorted(perms):
     print(i)
